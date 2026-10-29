@@ -54,4 +54,64 @@ BFS traverses the graph level by level, visiting neighboring locations before mo
 ### 2. Depth-First Search (DFS)
 DFS explores one path as deeply as possible before backtracking. It helps traverse the network and determine which locations are reachable from a starting location.
 
-### 3
+### 3. Kruskal's Algorithm
+Kruskal's algorithm finds a Minimum Spanning Tree (MST) by selecting the lowest-weight edges without forming cycles. It identifies a set of roads that connects all locations with minimum total distance.
+
+**Expected MST total distance: 13 km.**
+
+### 4. Dijkstra's Algorithm
+Dijkstra's algorithm calculates the shortest distance from a starting location to every other reachable location in a weighted graph with non-negative edge weights.
+
+It helps determine efficient routes between important city locations.
+
+## Expected Results
+When the program runs, it demonstrates:
+- BFS traversal of the transportation network.
+- DFS traversal of the transportation network.
+- Minimum Spanning Tree generated using Kruskal's algorithm.
+- Minimum total distance required to connect all locations.
+- Shortest distances and routes from the Railway Station to other locations.
+
+### Expected Shortest Distances from Railway Station
+
+| Destination | Shortest Distance |
+|---|---:|
+| Railway Station | 0 km |
+| Bus Stand | 4 km |
+| Hospital | 3 km |
+| Shopping Mall | 6 km |
+| Airport | 8 km |
+| University | 10 km |
+
+*Note: These results correspond to the road network defined in this project.*
+
+## How to Run the Project
+1. Download or clone this repository.
+2. Make sure Python 3 is installed on your computer.
+3. Open the project folder.
+4. Run the Python file using the following command:
+
+   ```bash
+   python main.py
+   ```
+
+5. View the output in the terminal.
+
+Alternatively, copy the Python code into an online Python compiler such as Programiz and run it.
+
+## Applications
+- City transportation planning
+- Road network optimization
+- Shortest-route calculation
+- Connectivity analysis
+- Transportation infrastructure planning
+- Network design and optimization
+
+## Conclusion
+This project demonstrates how graph data structures and algorithms can be applied to a city transportation network. BFS and DFS help explore network connectivity, Kruskal's algorithm identifies a minimum spanning tree, and Dijkstra's algorithm calculates shortest routes. These techniques provide a basic foundation for understanding transportation network analysis and optimization.
+
+## Author
+**Student Project — City Transportation Network**
+
+## License
+This project is intended for educational purposes.
